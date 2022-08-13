@@ -1,0 +1,8 @@
+ES2015 global constants
+
+const pi = 3.14
+
+1. var can be redeclared and reassigned, while let can only be reassigned.  
+2. const is a constant and cannot be redeclared or reassigned.
+3. let can be reassigned while const creates a constant item.
+4. when using var, hoisting is the page running the var scripts before the page initiliazes.  Therefore calling a variable (var) before it is used won't give an undeclared error.
