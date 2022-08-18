@@ -19,7 +19,7 @@ const {a, b} = obj;
 
 [arr[1],arr[2]] = [arr[2], arr[1]]
 
-const raceResults = ([first, second, third, ...rest]) {
+const raceResults = ([first, second, third, ...rest]) => {
     return {
         first, second, third, rest
     }
